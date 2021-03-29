@@ -5,10 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dynamic js Button creator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+            p{
+                margin: 0;
+            }
+    </style>
 </head>
 <body>
-    
-    <div id="cta"></div>
+    <div class="container mt-5"> 
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                      Button settings
+                    </div>
+                    <div class="card-body">
+                      
+                        <div class="d-flex flex-row mb-2">
+                            <p class="card-text w-25">Set CTA Text</p>                   
+                            <input id="cta_text" type="text" class="form-control">
+                        </div>
+                    
+
+                        <div class="d-flex flex-row">
+                            <p class="card-text w-25">Set Color text</p>                   
+                            <input id="cta_color_text" type="text" class="form-control">
+                        </div>
+
+                        <div class="d-flex flex-row align-items-center">
+                            <p class="card-text w-25">Set Border </p>                   
+                            <input id="cta_set_border" class="float-left" type="checkbox" class="form-control">
+                        </div>
+                     
+                    </div>
+                </div>
+
+
+                <div class="mt-5" id="cta"></div>
+
+            </div>
+
+        </div>
+    </div>
 
     <script src="src/index.js"> </script>
     <script>
