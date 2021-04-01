@@ -1,5 +1,13 @@
-console.log('let\'s get started');
+console.log('lets get started');
+// const jsdom = require("jsdom");
+// const { JSDOM } = jsdom;
 
+
+//const submitCta : HTMLElement | null = document.getElementById("save_settings");
+
+// if(submitCta !== null ){
+
+// }
 interface ButtonsShape {
     text: string;
     // xPos?: number;
@@ -32,6 +40,9 @@ class CreateButton {
 
 
 }
+
+
+
 
 // let cta = new CreateButton('text' );
 

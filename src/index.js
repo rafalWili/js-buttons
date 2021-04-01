@@ -1,5 +1,5 @@
 "use strict";
-console.log('let\'s get started');
+console.log('lets get started');
 var CreateButton = /** @class */ (function () {
     function CreateButton(ctaText) {
         var _this = this;
